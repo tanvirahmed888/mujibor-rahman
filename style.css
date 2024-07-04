@@ -6,11 +6,7 @@
 .banner{
     height: 90vh;
     width: 100%;
-    /* padding: 15px; */
-    /* background-image: url(image/banner2.png); */
-    /* background-image: url(image/banner.jpg); */
-    background-image: url(https://www.renderhub.com/ichigoyagami/gallery/sheikh-mujibur-rahman.jpg);
-    /* background-image: linear-gradient(rgba(0, 0, 0, 0.812),rgba(0, 0, 0, 0.669)) url(image/banner2.png); */
+    background-image: url(image/sheikh-mujibur-rahman.jpg);
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
@@ -22,12 +18,13 @@
     color: #ebb4b4;
     text-align: center;
     width: 70%;
-    text-shadow: #e65447 25px;
+    padding-top: 10px;
 }
 .content h2 {
     font-size: 54px;
     color: #971d11;
     text-transform: uppercase;
+    padding-top: 10px;
 }
 .content p {
 font-size: 23px;
@@ -43,11 +40,11 @@ margin: 15px 0;
     align-items: center;
     text-align: end;
 }
-.custome-button{
+.custom-button{
     font-size: 20px;
     font-weight: 600;
     color: rgba(0,0,0,0.7);
-    padding: 15px 45px;
+    padding: 15px 45px 15px 45px;
     background-color: transparent;
     background-size: 0%;
     background-image: linear-gradient(to right, #ED4264, #ffedbc);
@@ -55,6 +52,6 @@ margin: 15px 0;
     border-radius: 5px;
     transition: all 0.5s ease;
 }
-.custome-button:hover{
+.custom-button:hover{
     background-size: 100%;
     color: white;}
